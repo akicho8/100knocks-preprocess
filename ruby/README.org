@@ -1,0 +1,9 @@
+open ../docker/doc/answer/ans_preprocess_knock_Python.html
+
+学び
+sqlite3 では REGEXP が使えない (別途プラグイン的なものを自分で導入すれば可能)
+MySQLで正規表現 \d は [0-9] と書かないといけない
+ActiveRecord のログが MySQL の方が見やすい。Sqlite3 の場合「?」と「値」で分離されてしまう。
+MySQL 5.7 では RANK() が動かなかったのでこのために MySQL 8.0.33 に更新した。
+
+
